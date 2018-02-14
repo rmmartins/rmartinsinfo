@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ricardo Martins</title>
+    <description>A Cloud Solution Architect</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 14 Feb 2018 15:36:36 +0000</pubDate>
+    <lastBuildDate>Wed, 14 Feb 2018 15:36:36 +0000</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>Welcome to my blog</title>
+        <description>&lt;p&gt;Thanks to your interest at my blog. Unfortunately at this moment my blog is avaiable only in pt-br at &lt;a href=&quot;http://www.ricardomartins.com.br&quot;&gt;http://www.ricardomartins.com.br&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 13 Feb 2018 14:36:00 +0000</pubDate>
+        <link>http://localhost:4000/blog/2018/welcome/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/welcome/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

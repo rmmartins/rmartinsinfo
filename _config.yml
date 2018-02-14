@@ -1,0 +1,52 @@
+# Build settings
+permalink: /blog/:year/:title/
+markdown: kramdown
+highlighter: pygments
+plugins: [jekyll-paginate]
+
+paginate: 3
+paginate_path: "/blog/page/:num/"
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+# SEO settings
+title: Ricardo Martins
+description: "A Cloud Solution Architect"
+keywords: "devops, cloud, solution architect, sre, aws, azure, linux, opensource, microsoft"
+url: http://rmmartins.info
+#baseurl: "/end2end"
+baseurl: ""
+
+#google_analytics: UA-52446115-1
+#3repo: http://github.com/nandomoreirame/end2end
+#disqus_shortname: "rmmartins"
+#disqus_site_shortname: "rmmartins"
+
+# Author settings
+author:
+  name: Ricardo Martins
+  job: Cloud Solution Architect
+  bio: "Former SRE/Sysadmin, DevOps & Cloud Technologies Enthusiast."
+  thumb: /images/author.jpg
+  email: mailto:rmmartins@outlook.com
+  url: http://rmmartins.info/
+  github: https://github.com/rmmartins
+  twitter: https://twitter.com/ricardommartins
+  facebook: https://facebook.com/ricmmartins
+  linkedin: https://linkedin.com/in/rmmartins
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  - slug: contributions
+    title: Contributions
+  - slug: blog
+    title: Blog
+
+exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
