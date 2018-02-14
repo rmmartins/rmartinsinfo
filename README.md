@@ -1,1 +1,3 @@
-# Ricardo Martins Jekyll theme 
+# Ricardo Martins Jekyll Blog
+
+Check at [http://rmartins.info](http://rmartins.info)
